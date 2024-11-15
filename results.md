@@ -1,5 +1,7 @@
 # SouthparkGPT: A Small Language Model for Generating South Park Episodes
 
+![southparkgpt-image.png](figures/southparkgpt-image.png)
+
 ### Authors: Kerim Erekmen, Karim Djemai, and Caspar Volquardsen
 
 ---
