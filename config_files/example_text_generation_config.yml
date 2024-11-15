@@ -1,0 +1,17 @@
+architecture: "decoder-transformer"
+beam_search: false
+bias: true
+context_len: 1024
+d_model: 384
+device: "accelerated"
+dim_feedforward: 1536
+dropout: 0.0
+epochs: 1
+max_len_generate: 10000
+num_heads: 6
+num_layers: 6
+positional_encoding: "learned"
+pretrained_model: "models_params/examples/example_long_context_finetuned_southpark_decoder-transformer.pth"
+prompt: ",At South Park Elementary, the school day is about to begin. The students are attending their first class of the day, taught by Mr. Garrison.\nCartman,"
+temperature: 1
+tokenizer: "bpe-metaspace-punctuation-512"

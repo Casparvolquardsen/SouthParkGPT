@@ -1,0 +1,65 @@
+method: grid
+parameters:
+  architecture:
+    value: 'decoder-transformer'
+  context_len:
+    value: 256
+  dataset:
+    value: 'cleaned-southpark'
+  dropout:
+    values:
+      - 0.0
+      - 0.1
+      - 0.2
+  d_model:
+    value: 384
+  batch_size:
+    value: 48
+  gradient_accumulation_steps:
+    value: 10
+  epochs:
+    value: 1
+  lr:
+    value: 6e-4
+  min_lr:
+    value: 6e-5
+  num_heads:
+    value: 6
+  dim_feedforward:
+    value: 1536
+  num_layers:
+    value: 6
+  use_attn_mask:
+    value: True
+  device:
+    value: accelerated
+  log_wandb:
+    value: True
+  scheduler:
+    value: cosine
+  optimizer:
+    value: adamw
+  beta1:
+    value: 0.9
+  beta2:
+    value: 0.95
+  weight_decay:
+    value: 0.1
+  split_ratios:
+    value: '95-2.5-2.5'
+  warmup_steps:
+    value: 500 # accumulation steps
+  lr_decay_iters:
+    value: 9000 # accumulation steps, should be ~= max_iters per Chinchilla
+  tokenizer:
+    value: bpe-metaspace-punctuation-512
+  save_model_every_epoch:
+    value: True
+  use_gradient_clipping:
+    value: True
+  gradient_clip_value:
+    value: 1.0
+  evaluation_interval:
+    value: 2000
+program: main.py
+

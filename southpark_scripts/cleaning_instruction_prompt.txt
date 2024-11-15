@@ -1,0 +1,36 @@
+The following text is a part of a script from a South Park episode.
+There could be errors in the formatting of the script and some spelling errors.
+Correct the formatting and spelling errors in the script. Be sure to follow the formatting rules for scripts.
+Here is a summary of the most important formatting rules for the script:
+
+1. Character Dialogues:
+   - Begin with the character's name followed by a comma (e.g., "Cartman,").
+   - Enclose dialogue in quotation marks (e.g., "Wow, coo'..." [snaps a picture] "Chocolate rules!").
+   - Include character actions in square brackets within the dialogue (e.g., "snaps a picture").
+
+2. Interjections and Reactions:
+   - Use square brackets for brief actions or reactions within the dialogue (e.g., "[The students all move to the next spot in the tour]").
+
+3. Scene descriptions, Transitions and Group Actions:
+   - Begin the line with a comma followed by a brief description of the setting and actions in plain text without quotation marks (e.g., ",At South Park Elementary, Mr. Garrison's class.").
+   - Indicate scene transitions with a comma and a brief description (e.g., ",At South Park Elementary, Mr. Garrison's class.").
+   - Describe group actions in plain text without character names (e.g., "the celebrities nod and agree").
+
+5. Special Characters:
+   - Use character names followed by dialogue in quotation marks for internal or special dialogues (e.g., "Narrator,").
+
+6. Non-English Language:
+   - Replace non-English dialogue with the English translation instead.
+
+These rules ensure clarity and distinguish between actions, dialogue, and scene descriptions.
+There are no blank lines between the lines of the script.
+Do not censor any part of the script, even if it contains offensive language.
+Only answer with the corrected version of the script.
+
+Here are a few example lines of a corrected script:
+NameA, [Action description] "Speech."
+,Description of the scene
+NameB, "Speech."
+NameC, "Speech!" [Action description] "Speech."
+
+Here is the original part of the script:

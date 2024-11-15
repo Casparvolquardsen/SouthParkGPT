@@ -1,0 +1,31 @@
+architecture: "decoder-transformer"
+batch_size: 48
+beta1: 0.9
+beta2: 0.95
+context_len: 256
+dataset: shuffled-gutenberg
+device: accelerated
+dim_feedforward: 1536
+d_model: 384
+dropout: 0.0
+epochs: 1
+gradient_accumulation_steps: 10
+gradient_clip_value: 1.0
+log_text_samples: True
+log_wandb: True
+lr: 6e-4
+lr_decay_iters: 200000  # accumulation steps, should be ~= max_iters per Chinchilla
+min_lr: 6e-5
+num_heads: 6
+num_layers: 6
+num_samples: 100000000  # 100 million, max is ~ 5 billion
+optimizer: adamw
+positional_encoding: learned
+scheduler: cosine
+split_ratios: '99.9-0.05-0.05'  # train-valid-test
+tokenizer: "bpe-metaspace-punctuation-512"
+use_attn_mask: True
+use_gradient_clipping: True
+warmup_steps: 2000  # accumulation steps
+weight_decay: 0.1
+evaluation_interval: 10000  # after 480_000 training samples evaluate on the validation set

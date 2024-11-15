@@ -1,0 +1,18 @@
+method: grid
+parameters:
+  config:
+    values:
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_gpt2_1.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_gpt2_2.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_gpt2_3.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_gpt2_4.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_gpt2_5.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_gpt2_6.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_metaspace_1.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_metaspace_2.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_metaspace_3.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_metaspace_4.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_metaspace_5.yml
+      - config_files/medium_nanogpt_finetuning_sweep/config_medium_nanogpt_finetuning_sweep_metaspace_6.yml
+program: main.py
+
